@@ -202,7 +202,7 @@ public string GetImgInstructions_By_CaptCha69_Com(string CauHoiFullText)
 	else if(CauHoiFullText.Contains("pick the image with only one rope")){return "ropes";}
 	else if(CauHoiFullText.Contains("use the buttons to place the indicated car, in the correct position in the race")){return "car_pos";}
 	else if(CauHoiFullText.Contains("use the arrows to rotate the object to face in the direction of the hand")){return "3d_rollball_objects";}
-	else if(CauHoiFullText.Contains("используйте стрелки, чтобы повернуть животное головой в направлении руки")){return "finger_direction";}
+	else if(CauHoiFullText.Contains("use the arrows to turn the animal's head in the direction of the hand")){return "finger_direction";}
 	else if(CauHoiFullText.Contains("usa le frecce per ruotare l'animale in modo che sia rivolto nella direzione indicata dalla mano")){return "finger_direction";}
 	else if(CauHoiFullText.Contains("pick the distorted object")){return "distorted";}
 	else if(CauHoiFullText.Contains("pick the image of the person walking down the stairs")){return "stairs_down";}
