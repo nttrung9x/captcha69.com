@@ -143,29 +143,29 @@ public string GetImgInstructions_By_CaptCha69_Com(string CauHoiFullText)
 	else if(CauHoiFullText.Contains("pick the image of the striped shape and the checkered shape")){return "mat_stripeshape_checkershape";}
 	else if(CauHoiFullText.Contains("pick the image of 2 striped shapes")){return "mat_stripeshape_stripeshape";}
 	else if(CauHoiFullText.Contains("two stripeshapes")){return "mat_stripeshape_stripeshape";}
-	else if(CauHoiFullText.Contains("materialshapes brick cone checker cube")){return "mat_brickcone_checkercube";}
-	else if(CauHoiFullText.Contains("materialshapes brick cone checker sphere")){return "mat_brickcone_checkersphere";}
-	else if(CauHoiFullText.Contains("materialshapes brick cone stripe cone")){return "mat_brickcone_stripecone";}
-	else if(CauHoiFullText.Contains("materialshapes brick cube stripe heart")){return "mat_brickcube_stripeheart";}
-	else if(CauHoiFullText.Contains("materialshapes brick cube stripe sphere")){return "mat_brickcube_stripesphere";}
-	else if(CauHoiFullText.Contains("materialshapes brick heart stripe heart")){return "mat_brickheart_stripeheart";}
-	else if(CauHoiFullText.Contains("materialshapes brick sphere checker heart")){return "mat_bricksphere_checkerheart";}
-	else if(CauHoiFullText.Contains("materialshapes checker cone checker sphere")){return "mat_checkercone_checkersphere";}
-	else if(CauHoiFullText.Contains("materialshapes fuzz cone brick sphere")){return "mat_fuzzcone_bricksphere";}
-	else if(CauHoiFullText.Contains("materialshapes fuzz cube checker cube")){return "mat_fuzzcube_checkercube";}
-	else if(CauHoiFullText.Contains("materialshapes fuzz cube stripe cube")){return "mat_fuzzcube_stripecube";}
-	else if(CauHoiFullText.Contains("materialshapes fuzz heart brick heart")){return "mat_fuzzheart_brickheart";}
-	else if(CauHoiFullText.Contains("materialshapes fuzz heart stripe heart")){return "mat_fuzzheart_stripeheart";}
-	else if(CauHoiFullText.Contains("materialshapes fuzz sphere stripe cone")){return "mat_fuzzsphere_stripecone";}
-	else if(CauHoiFullText.Contains("materialshapes fuzz sphere stripe cube")){return "mat_fuzzsphere_stripecube";}
-	else if(CauHoiFullText.Contains("materialshapes stripe cone checker cube")){return "mat_stripecone_checkercube";}
-	else if(CauHoiFullText.Contains("materialshapes stripe cube checker cube")){return "mat_stripecube_checkercube";}
-	else if(CauHoiFullText.Contains("materialshapes stripe cube checker heart")){return "mat_stripecube_checkerheart";}
-	else if(CauHoiFullText.Contains("materialshapes stripe cube checker sphere")){return "mat_stripecube_checkersphere";}
-	else if(CauHoiFullText.Contains("materialshapes stripe heart checker cube")){return "mat_stripeheart_checkercube";}
-	else if(CauHoiFullText.Contains("materialshapes stripe shape checker shape")){return "mat_stripeshape_checkershape";}
-	else if(CauHoiFullText.Contains("materialshapes stripe shape stripe shape")){return "mat_stripeshape_stripeshape";}
-	else if(CauHoiFullText.Contains("materialshapes checker shape checker shape")){return "mat_checkershape_checkershape";}
+	else if(CauHoiFullText.Contains("material shapes brick cone checker cube")){return "mat_brickcone_checkercube";}
+	else if(CauHoiFullText.Contains("material shapes brick cone checker sphere")){return "mat_brickcone_checkersphere";}
+	else if(CauHoiFullText.Contains("material shapes brick cone stripe cone")){return "mat_brickcone_stripecone";}
+	else if(CauHoiFullText.Contains("material shapes brick cube stripe heart")){return "mat_brickcube_stripeheart";}
+	else if(CauHoiFullText.Contains("material shapes brick cube stripe sphere")){return "mat_brickcube_stripesphere";}
+	else if(CauHoiFullText.Contains("material shapes brick heart stripe heart")){return "mat_brickheart_stripeheart";}
+	else if(CauHoiFullText.Contains("material shapes brick sphere checker heart")){return "mat_bricksphere_checkerheart";}
+	else if(CauHoiFullText.Contains("material shapes checker cone checker sphere")){return "mat_checkercone_checkersphere";}
+	else if(CauHoiFullText.Contains("material shapes fuzz cone brick sphere")){return "mat_fuzzcone_bricksphere";}
+	else if(CauHoiFullText.Contains("material shapes fuzz cube checker cube")){return "mat_fuzzcube_checkercube";}
+	else if(CauHoiFullText.Contains("material shapes fuzz cube stripe cube")){return "mat_fuzzcube_stripecube";}
+	else if(CauHoiFullText.Contains("material shapes fuzz heart brick heart")){return "mat_fuzzheart_brickheart";}
+	else if(CauHoiFullText.Contains("material shapes fuzz heart stripe heart")){return "mat_fuzzheart_stripeheart";}
+	else if(CauHoiFullText.Contains("material shapes fuzz sphere stripe cone")){return "mat_fuzzsphere_stripecone";}
+	else if(CauHoiFullText.Contains("material shapes fuzz sphere stripe cube")){return "mat_fuzzsphere_stripecube";}
+	else if(CauHoiFullText.Contains("material shapes stripe cone checker cube")){return "mat_stripecone_checkercube";}
+	else if(CauHoiFullText.Contains("material shapes stripe cube checker cube")){return "mat_stripecube_checkercube";}
+	else if(CauHoiFullText.Contains("material shapes stripe cube checker heart")){return "mat_stripecube_checkerheart";}
+	else if(CauHoiFullText.Contains("material shapes stripe cube checker sphere")){return "mat_stripecube_checkersphere";}
+	else if(CauHoiFullText.Contains("material shapes stripe heart checker cube")){return "mat_stripeheart_checkercube";}
+	else if(CauHoiFullText.Contains("material shapes stripe shape checker shape")){return "mat_stripeshape_checkershape";}
+	else if(CauHoiFullText.Contains("material shapes stripe shape stripe shape")){return "mat_stripeshape_stripeshape";}
+	else if(CauHoiFullText.Contains("material shapes checker shape checker shape")){return "mat_checkershape_checkershape";}
 	else if(CauHoiFullText.Contains("pick the image where the darts add up to 9")){return "darts9";}
 	else if(CauHoiFullText.Contains("pick the image where the darts add up to 14")){return "darts14";}
 	else if(CauHoiFullText.Contains("pick the image where the darts add up to 17")){return "darts17";}
