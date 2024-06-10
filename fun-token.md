@@ -25,7 +25,7 @@ GET: https://captcha69.com/res.php?key=point_xxx&action=get&json=1&id=665f0b4b85
 ```
 Response
 ```
-status is 3 result: ERROR | PROCESSING | SUCCESS
+status is 3 result: ERROR ( giải lỗi ) | PROCESSING ( đang giải ) | SUCCESS ( giải xong )
 ```
 ```
 {
