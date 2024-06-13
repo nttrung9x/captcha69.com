@@ -14,6 +14,7 @@ Params:
 &page_url=PAGE_URL
 &proxy_info=proxy
 &user_agent=user_agent
+&data_blob=xxx ( thông số không bắt buộc - tùy site cần hoặc không )
 ```
 ```
 Ví dụ:
@@ -28,6 +29,7 @@ Params:
 &page_url=https://help.x.com
 &proxy_info=http://username:password@ip:port Hoặc http://ip:port Hoặc socks5://...
 &user_agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+&data_blob=xxx ( thông số không bắt buộc - tùy site cần hoặc không )
 ```
 Response - Kết quả trả về:
 ```
