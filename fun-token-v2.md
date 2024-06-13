@@ -1,4 +1,5 @@
-1 requests = 1 point
+- v1: 1 requests = 4 point
+- v2: 1 requests = 1 point
 - Create Task:
 ```
 - Thông số:
