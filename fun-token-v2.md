@@ -22,8 +22,8 @@ Params:
 ?key=point_xxx
 &sv=1
 &json=1
-&public_key=2CB16598-CB82-4CF7-B332-5990DB66F3AB
-&page_url=https://x.com/i/flow/signup
+&public_key=C07CAFBC-F76F-4DFD-ABFA-A6B78ADC1F29
+&page_url=https://help.x.com
 &proxy_info=http://username:password@proxy_server:port
 &user_agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 ```
