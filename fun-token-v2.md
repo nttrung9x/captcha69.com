@@ -6,7 +6,7 @@ POST:
 API: https://captcha69.com/fun_token.php
 Params:
 ?key=API_KEY
-&method=fun_token
+&sv=1
 &json=1
 &public_key=SITE_KEY
 &page_url=PAGE_URL
@@ -19,7 +19,7 @@ POST:
 API: https://captcha69.com/fun_token.php
 Params:
 ?key=point_xxx
-&method=fun_token
+&sv=1
 &json=1
 &public_key=2CB16598-CB82-4CF7-B332-5990DB66F3AB
 &page_url=https://x.com/i/flow/signup
