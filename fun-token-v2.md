@@ -69,3 +69,7 @@ status is 3 result: ERROR ( giải lỗi ) | PROCESSING ( đang giải ) | SUCCE
   "request": "12017d5cd8966fb68.4052468405|r=eu-west-1|meta=3|meta_width=558|meta_height=523|metabgclr=transparent|metaiconclr=%23555555|guitextcolor=%23000000|lang=vi|pk=2CB16598-CB82-4CF7-B332-5990DB66F3AB|at=40|ag=101|cdn_url=https%3A%2F%2Fclient-api.arkoselabs.com%2Fcdn%2Ffc|lurl=https%3A%2F%2Faudio-eu-west-1.arkoselabs.com|surl=https%3A%2F%2Fclient-api.arkoselabs.com|smurl=https%3A%2F%2Fclient-api.arkoselabs.com%2Fcdn%2Ffc%2Fassets%2Fstyle-manager"
 }
 ```
+- Chú ý:
+```
+Khi ae requests cùng 1 proxy từ 1 đến 2 lần nhưng vẫn cứ nhận được ERROR thì nên đổi proxy khác nha, vì đôi khi proxy đó bị Fun nó black list rồi, qua ngày khác thì có khả năng dùng lại được
+```
