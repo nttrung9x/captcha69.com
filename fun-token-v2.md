@@ -1,15 +1,35 @@
 
 - Create Task:
 ```
-GET: https://captcha69.com/in.php?key=API_KEY&method=fun_token&json=1&pageurl=SITE_KEY|PAGE_URL
+- Thông số:
+POST:
+API: https://captcha69.com/fun_token.php
+Params:
+?key=API_KEY
+&method=fun_token
+&json=1
+&public_key=SITE_KEY
+&page_url=PAGE_URL
+&proxy_info=proxy
+&user_agent=user_agent
 ```
 ```
-GET: https://captcha69.com/in.php?key=point_xxx&method=fun_token&json=1&pageurl=2CB16598-CB82-4CF7-B332-5990DB66F3AB|https://x.com/i/flow/signup
+Ví dụ:
+POST:
+API: https://captcha69.com/fun_token.php
+Params:
+?key=point_xxx
+&method=fun_token
+&json=1
+&public_key=2CB16598-CB82-4CF7-B332-5990DB66F3AB
+&page_url=https://x.com/i/flow/signup
+&proxy_info=http://username:password@proxy_server:port
+&user_agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 ```
-Response
+Response - Kết quả trả về:
 ```
 {
-  "status": 1,
+  "status": "SUCCESS",
   "request": "665f0b4b8507db722cb107fe"
 }
 ```
@@ -18,12 +38,23 @@ Response
 
 - Result Task:
 ```
-GET: https://captcha69.com/res.php?key=API_KEY&action=get&json=1&id=TASK_ID
+GET:
+API: https://captcha69.com/res.php
+?key=API_KEY
+&action=get
+&json=1
+&id=TASK_ID
 ```
 ```
-GET: https://captcha69.com/res.php?key=point_xxx&action=get&json=1&id=665f0b4b8507db722cb107fe
+Ví dụ:
+GET:
+API: https://captcha69.com/res.php
+?key=point_xxx
+&action=get
+&json=1
+&id=665f0b4b8507db722cb107fe
 ```
-Response
+Response - Kết quả trả về:
 ```
 status is 3 result: ERROR ( giải lỗi ) | PROCESSING ( đang giải ) | SUCCESS ( giải xong )
 ```
