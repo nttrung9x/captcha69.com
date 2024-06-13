@@ -1,4 +1,5 @@
-
+v1: 1 requests = 4 point
+v2: 1 requests = 1 point
 - Create Task:
 ```
 GET: https://captcha69.com/in.php?key=API_KEY&method=fun_token&json=1&pageurl=SITE_KEY|PAGE_URL
