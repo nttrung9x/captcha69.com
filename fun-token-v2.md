@@ -24,7 +24,7 @@ Params:
 &json=1
 &public_key=C07CAFBC-F76F-4DFD-ABFA-A6B78ADC1F29
 &page_url=https://help.x.com
-&proxy_info=http://username:password@ip:port
+&proxy_info=http://username:password@ip:port Hoặc http://ip:port
 &user_agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 ```
 Response - Kết quả trả về:
