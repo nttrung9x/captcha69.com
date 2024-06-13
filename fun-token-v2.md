@@ -38,7 +38,7 @@ Response - Kết quả trả về:
   "request": "665f0b4b8507db722cb107fe"
 }
 ```
-![Create Task](PostMan-fun-v2.png)
+![Create Task](PostMan-fun-v2-create.png)
 
 
 - Result Task:
