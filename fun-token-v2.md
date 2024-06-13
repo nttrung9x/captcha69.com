@@ -6,6 +6,7 @@ POST:
 API: https://captcha69.com/fun_token.php
 Params:
 ?key=API_KEY
+&action=create
 &sv=1
 &json=1
 &public_key=SITE_KEY
