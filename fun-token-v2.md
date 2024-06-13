@@ -44,7 +44,7 @@ Response - Kết quả trả về:
 - Result Task:
 ```
 GET:
-API: https://captcha69.com/res.php
+API: https://captcha69.com/fun_token.php
 ?key=API_KEY
 &action=get
 &json=1
@@ -53,7 +53,7 @@ API: https://captcha69.com/res.php
 ```
 Ví dụ:
 GET:
-API: https://captcha69.com/res.php
+API: https://captcha69.com/fun_token.php
 ?key=point_xxx
 &action=get
 &json=1
