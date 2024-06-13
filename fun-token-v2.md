@@ -20,6 +20,7 @@ POST:
 API: https://captcha69.com/fun_token.php
 Params:
 ?key=point_xxx
+&action=create
 &sv=1
 &json=1
 &public_key=C07CAFBC-F76F-4DFD-ABFA-A6B78ADC1F29
