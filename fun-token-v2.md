@@ -1,3 +1,6 @@
+```
+AE dùng phần mềm này để chuyển đổi proxy trên VPS nha: https://github.com/nttrung9x/captcha69.com/blob/main/tools-conver-proxy.md
+```
 - v1: 1 requests = 4 point
 - v2: 1 requests = 1 point
 - Create Task:
