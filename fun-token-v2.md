@@ -77,3 +77,8 @@ status is 3 result: ERROR ( giải lỗi ) | PROCESSING ( đang giải ) | SUCCE
 ```
 Khi ae requests cùng 1 proxy từ 1 đến 2 lần nhưng vẫn cứ nhận được ERROR thì nên đổi proxy khác nha, vì đôi khi proxy đó bị Fun nó black list rồi, qua ngày khác thì có khả năng dùng lại được
 ```
+
+- Code mẫu submit token fun:
+```
+https://github.com/nttrung9x/captcha69.com/blob/main/submit-fun-token.md
+```
