@@ -5,7 +5,7 @@
 
 ```
 
-Download: [https://captcha69.com/ConverProxyToVPSProxy/ConverProxyToVPSProxy.1.0.0.1.rar](https://captcha69.com/ConverProxyToVPSProxy/ConverProxyToVPSProxy.1.0.0.1.rar)
+Download: https://captcha69.com/ConverProxyToVPSProxy/ConverProxyToVPSProxy.1.0.0.1.rar
 
 ```
 
