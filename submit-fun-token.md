@@ -1,4 +1,4 @@
-- Cách gửi mã thông báo Twitter Funcaptcha
+- Cách gửi mã thông báo Funcaptcha Token
 - Đầu tiên, bạn phải tập trung vào iframe có id "arkoseFrame"
 
 - Với mã Selenium
