@@ -25,13 +25,18 @@ driver.switchTo().frame(iframe);
 
 - Submit Fun Token:
 ```
+var Token_FunCaptCha = "Truyền token nhận đc từ api vào đây - xem ví dụ phía dưới";
+var Js_Submit = @"
 function submit(token) {
     parent.postMessage(JSON.stringify({
-        eventId: "challenge-complete",
+        eventId: 'challenge-complete',
         payload: { sessionToken: token }
-    }), "*");
+    }), '*');
 }
-submit("Token_FunCaptCha");
+submit('"+Token_FunCaptCha+"');
+";
+
+driver.execute_script(Js_Submit); // inject javascripts code submit token vào trình duyệt trong selenium
 ```
 
 - Với Token_FunCaptCha là Code thông báo Funcaptcha bạn nhận được từ dịch vụ [CaptCha69.Com](https://captcha69.com/)
