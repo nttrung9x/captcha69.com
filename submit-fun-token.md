@@ -3,12 +3,12 @@
 
 - Với mã Selenium
 
--Chuyển iframe bằng mã C#:
+- Chuyển iframe bằng mã C#:
 ```
 driver.SwitchTo().Frame(driver.FindElement(By.Id("arkoseFrame")));
 ```
 
--Chuyển iframe bằng mã Python:
+- Chuyển iframe bằng mã Python:
 ```
 driver.switch_to.frame(driver.find_element(By.ID, 'arkoseFrame'));
 ```
