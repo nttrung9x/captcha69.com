@@ -19,7 +19,7 @@ WebElement iframe = driver.findElement(By.id("arkoseFrame"));
 ```
 
 - Switch to the frame
-- ```
+```
 driver.switchTo().frame(iframe);
 ```
 
