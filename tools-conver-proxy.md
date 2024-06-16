@@ -6,5 +6,7 @@
 ```
 https://captcha69.com/ConverProxyToVPSProxy/ConverProxyToVPSProxy.1.0.0.1.rar
 ```
+- Chú ý: Nếu bạn nào bấm Start mà gặp lỗi "'NoneType' object is not subscriptable" thì xem lại định dạng proxy nha
+- Ví dụ 1.1.1.1:1234 mà bị lỗi thì fix lại thành http://1.1.1.1:1234
 
 ![ConverProxy](conver-proxy.png)
