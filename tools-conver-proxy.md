@@ -10,4 +10,4 @@ https://captcha69.com/ConverProxyToVPSProxy/ConverProxyToVPSProxy.2.0.0.1.rar
 - Ví dụ 1.1.1.1:1234 mà bị lỗi thì fix lại thành http://1.1.1.1:1234
 - Port Start có ít nhất 4 con số nha
 
-![ConverProxy](conver-proxy.png)
+![ConverProxy](conver-proxy-v2.png)
