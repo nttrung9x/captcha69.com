@@ -154,7 +154,7 @@ const chrome = require('selenium-webdriver/chrome');
     });
     `)
 
-    driver.get('SITE WITH CAPTCHA');
+    driver.get('https://domain.com');
     
     const params = await driver.executeScript(`
       return new Promise((resolve, reject) => {
