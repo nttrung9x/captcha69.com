@@ -166,7 +166,7 @@ const chrome = require('selenium-webdriver/chrome');
 
     if (params) {
       const data = {
-        clientKey: 'API KEY',
+        clientKey: 'API_KEY_max1',
         task: {
           type: 'TurnstileTaskProxyless',
           websiteURL: params.websiteURL,
