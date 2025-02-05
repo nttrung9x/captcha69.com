@@ -34,8 +34,8 @@ POST: https://captcha69.com/createTask
 		"cloudflareTaskType": "token",
 		"userAgent":"userAgentPlaceholder",
 		"pageAction": "managed",
-		"pageData": "HUHDWUHuhuwfiweh32..uh2uhuhyugYUG=",
-		"data": "874291f4retD1366"
+		"pageData": "HUHDWUHuxxxxxxxxxx=",
+		"data": "695147f4retD6869"
 	}
 }
 ```
