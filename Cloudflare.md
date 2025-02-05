@@ -102,11 +102,13 @@ Response is in process - wait for 5s and re-post
 Successful response
 ```
 {
-  "errorId":0,
-  "status":"ready",
-  "solution": {
-    "text":"xxxxxxxxxxxxxxxxxxxxxxxxxxx"
-  }
+    "solution": {
+        "token": "0.lzLtMryi1Rj2W76EJJ_WkAUFd-fo7rlLr-FKo-4gpiv-K5g1Jwzsfoa2TeX5o3f2OetMnndzDj6R0OsMkqW-xxxxxxx"
+    },
+    "status": "ready",
+    "errorId": 0,
+    "errorCode": null,
+    "errorDescription": null
 }
 ```
 
