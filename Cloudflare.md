@@ -195,7 +195,7 @@ const chrome = require('selenium-webdriver/chrome');
           const taskResult = await fetch('https://captcha69.com/getTaskResult', {
             method: 'post',
             body: JSON.stringify({
-              "clientKey":"API KEY",
+              "clientKey":"API_KEY_max1",
               "taskId": createTaskResult.taskId
             })
           });
