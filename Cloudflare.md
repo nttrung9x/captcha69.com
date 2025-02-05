@@ -3,7 +3,7 @@
 POST: https://captcha69.com/createTask
 ```
 {
-	"clientKey":"API_KEY",
+	"clientKey":"API_KEY_max1",
 	"task":
 	{
 		"type":"TurnstileTaskProxyless",
@@ -17,7 +17,7 @@ Response
 ```
 {
   "errorId":0,
-  "taskId":600b79db289ac9c3d691c5a5 
+  "taskId":676869 
 }
 ```
 
@@ -26,7 +26,7 @@ Response
 POST: https://captcha69.com/createTask
 ```
 {
-	"clientKey": "API_KEY",
+	"clientKey": "API_KEY_max1",
 	"task": {
 		"type": "TurnstileTask",
 		"websiteURL": "https://domain.com",
@@ -44,7 +44,7 @@ Response
 ```
 {
   "errorId":0,
-  "taskId":600b79db289ac9c3d691c5a5 
+  "taskId":676869 
 }
 ```
 
@@ -53,7 +53,7 @@ Response
 POST: https://captcha69.com/createTask
 ```
   {
-  "clientKey":"API_KEY",
+  "clientKey":"API_KEY_max1",
   "task": {
 	"type":"TurnstileTask",
 	"websiteURL":"https://domain.com",
@@ -74,7 +74,7 @@ Response
 ```
 {
   "errorId":0,
-  "taskId":600b79db289ac9c3d691c5a5
+  "taskId":676869
 }
 ```
 
@@ -84,8 +84,8 @@ Response
 POST: https://captcha69.com/getTaskResult
 ```
 {
-  "clientKey":"API_KEY",
-  "taskId": 600b79db289ac9c3d691c5a5
+  "clientKey":"API_KEY_max1",
+  "taskId": 676869
 }
 ```
 
