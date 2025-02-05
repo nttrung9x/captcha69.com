@@ -32,7 +32,7 @@ POST: https://captcha69.com/createTask
 		"websiteURL": "https://domain.com",
 		"websiteKey": "0x4AAAAxxxxxxxxx",
 		"cloudflareTaskType": "token",
-		"userAgent":"userAgentPlaceholder",
+		"userAgent":"userAgent_For_Browser",
 		"pageAction": "managed",
 		"pageData": "HUHDWUHuxxxxxxxxxx=",
 		"data": "695147f4retD6869"
@@ -60,7 +60,7 @@ POST: https://captcha69.com/createTask
 	"websiteKey":"0x4AAAAxxxxxxxxx",
 	"cloudflareTaskType": "cf_clearance",
 	"htmlPageBase64": "PCFETxxxxxxxxx+",
-	"userAgent": "userAgentPlaceholder",
+	"userAgent": "userAgent_For_Browser",
 	"proxyType":"http",
 	"proxyAddress":"xxx.xxx.xxx.xxx",
 	"proxyPort":xxxx,
