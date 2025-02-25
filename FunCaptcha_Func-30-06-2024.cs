@@ -345,6 +345,11 @@ public string GetImgInstructions_By_CaptCha69_Com(string CauHoiFullText)
 	else if(CauHoiFullText.Contains("photosheep")){return "photosheep";}
 	else if(CauHoiFullText.Contains("photoswimmingpool")){return "photoswimmingpool";}
 	else if(CauHoiFullText.Contains("photoelephant")){return "photoelephant";}
+	else if(CauHoiFullText.Contains("photo chair")){return "photochair";}
+	else if(CauHoiFullText.Contains("photo door")){return "photodoor";}
+	else if(CauHoiFullText.Contains("photo sheep")){return "photosheep";}
+	else if(CauHoiFullText.Contains("photo swimmingpool")){return "photoswimmingpool";}
+	else if(CauHoiFullText.Contains("photo elephant")){return "photoelephant";}
 	else if(CauHoiFullText.Contains("use the arrows to pick the image where the icons are in the same sequence as that in the leftmost image")){return "icon_constellation";}
 	else if(CauHoiFullText.Contains("use the arrows to choose the image where the winner has the icon shown in the image on the left")){return "iconrace";}
 	else if(CauHoiFullText.Contains("use the arrows to match the number of fallen pins to the number shown on the left")){return "bowling";}
