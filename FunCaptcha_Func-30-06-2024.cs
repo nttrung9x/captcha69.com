@@ -45,6 +45,7 @@ public string GetImgInstructions_By_CaptCha69_Com(string CauHoiFullText)
 	else if(CauHoiFullText.Contains("pick the dice pair whose top sides add up to 6")){return "dicesum6";}
 	else if(CauHoiFullText.Contains("pick the dice pair whose top sides add up to 7")){return "dicesum7";}
 	else if(CauHoiFullText.Contains("pick the dice pair whose top sides add up to 8")){return "dicesum8";}
+	else if(CauHoiFullText.Contains("pick the dice pair whose top sides add up to 10")){return "dicesum10";}
 	else if(CauHoiFullText.Contains("pick the dice pair whose top sides add up to 14")){return "dicesum14";}
 	else if(CauHoiFullText.Contains("dice revised")){return "dicesum7";}
 	else if(CauHoiFullText.Contains("dice 5 revised")){return "dicesum5";}
@@ -55,6 +56,7 @@ public string GetImgInstructions_By_CaptCha69_Com(string CauHoiFullText)
 	else if(CauHoiFullText.Contains("pick the matching cards")){return "card";}
 	else if(CauHoiFullText.Contains("pick the spiral galaxy")){return "spiral_galaxy";}
 	else if(CauHoiFullText.Contains("pick the wrong shadow")){return "wrong_shadow";}
+	else if(CauHoiFullText.Contains("shadows")){return "wrong_shadow";}
 	else if(CauHoiFullText.Contains("pick the butterfly")){return "butterfly";}
 	else if(CauHoiFullText.Contains("pick the parrot")){return "parrot";}
 	else if(CauHoiFullText.Contains("pick the dinosaur")){return "dinosaur";}
@@ -258,6 +260,7 @@ public string GetImgInstructions_By_CaptCha69_Com(string CauHoiFullText)
 	else if(CauHoiFullText.Contains("use the arrows to turn the animal's head in the direction of the hand.")){return "finger_direction";}
 	else if(CauHoiFullText.Contains("usa le frecce per ruotare l'animale in modo che sia rivolto nella direzione indicata dalla mano")){return "finger_direction";}
 	else if(CauHoiFullText.Contains("pick the distorted object")){return "distorted";}
+	else if(CauHoiFullText.Contains("warpedobjects")){return "distorted";}
 	else if(CauHoiFullText.Contains("pick the image of the person walking down the stairs")){return "stairs_down";}
 	else if(CauHoiFullText.Contains("pick the image of the person walking up the stairs")){return "stairs_up";}
 	else if(CauHoiFullText.Contains("pick the image of the person walking up the stirs")){return "stairs_up";}
@@ -310,6 +313,7 @@ public string GetImgInstructions_By_CaptCha69_Com(string CauHoiFullText)
 	else if(CauHoiFullText.Contains("use the arrows to find the image where the number on each ring adds up to the number on the left")){return "ringtoss";}
 	else if(CauHoiFullText.Contains("mismatched jigsaw")){return "wrong_puzzle";}
 	else if(CauHoiFullText.Contains("broken jigsaw broken jigsaw swap")){return "brokenjigsaw";}
+	else if(CauHoiFullText.Contains("use the arrows to find the jigsaw puzzle that is missing the puzzle piece shown on the left")){return "brokenjigsaw";}
 	else if(CauHoiFullText.Contains("broken jigsaw")){return "brokenjigsaw";}
 	else if(CauHoiFullText.Contains("broken jigsaw")){return "brokenjigsaw";}
 	else if(CauHoiFullText.Contains("use the arrows to pick the image where the object directly below the arrow matches the left image")){return "conveyor";}
@@ -320,6 +324,32 @@ public string GetImgInstructions_By_CaptCha69_Com(string CauHoiFullText)
 	else if(CauHoiFullText.Contains("find the image that has the prize on the left held by the claw in the machine on the right")){return "claw_machine";}
 	else if(CauHoiFullText.Contains("lumber length game")){return "lumber_length_game";}
 	else if(CauHoiFullText.Contains("lumber length")){return "lumber_length_game";}
+	else if(CauHoiFullText.Contains("make sure the length of the object matches the length shown")){return "lumber_length_game";}
 	else if(CauHoiFullText.Contains("using the arrows, find the image where one of the towers of rocks contains the exact amount shown on the left")){return "rocktoweralt2";}
+	else if(CauHoiFullText.Contains("pick the image of the horse")){return "photohorse";}
+	else if(CauHoiFullText.Contains("pick the image of the hot air balloon")){return "photohotairballoon";}
+	else if(CauHoiFullText.Contains("ice cream")){return "photoicecream";}
+	else if(CauHoiFullText.Contains("pick the image of the hot icecream")){return "photoicecream";}
+	else if(CauHoiFullText.Contains("pick the image of the lighthouse")){return "photolighthouse";}
+	else if(CauHoiFullText.Contains("pick the image of the palm tree")){return "photopalmtree";}
+	else if(CauHoiFullText.Contains("pick the image of the penguin")){return "photopenguin";}
+	else if(CauHoiFullText.Contains("pick the image of the pizza")){return "photopizza";}
+	else if(CauHoiFullText.Contains("pick the image of the sheep")){return "photosheep";}
+	else if(CauHoiFullText.Contains("pick the image of the tent")){return "phototent";}
+	else if(CauHoiFullText.Contains("pick the image of the chair")){return "photochair";}
+	else if(CauHoiFullText.Contains("pick the image of the door")){return "photodoor";}
+	else if(CauHoiFullText.Contains("pick the image of the elephant")){return "photoelephant";}
+	else if(CauHoiFullText.Contains("pick the image of the sailboat")){return "photosailboat";}
+	else if(CauHoiFullText.Contains("photochair")){return "photochair";}
+	else if(CauHoiFullText.Contains("photodoor")){return "photodoor";}
+	else if(CauHoiFullText.Contains("photosheep")){return "photosheep";}
+	else if(CauHoiFullText.Contains("photoswimmingpool")){return "photoswimmingpool";}
+	else if(CauHoiFullText.Contains("photoelephant")){return "photoelephant";}
+	else if(CauHoiFullText.Contains("use the arrows to pick the image where the icons are in the same sequence as that in the leftmost image")){return "icon_constellation";}
+	else if(CauHoiFullText.Contains("use the arrows to choose the image where the winner has the icon shown in the image on the left")){return "iconrace";}
+	else if(CauHoiFullText.Contains("use the arrows to match the number of fallen pins to the number shown on the left")){return "bowling";}
+	else if(CauHoiFullText.Contains("use the arrows to pick the image where the character is pointing at the shortest road, as shown in the leftmost image")){return "pathfinder";}
+	else if(CauHoiFullText.Contains("use the arrows to select the image where all the wires connect to matching icons")){return "wireconnect";}
+	else if(CauHoiFullText.Contains("using the arrows, match the animal in the left and right image")){return "simpleicons";}
 	return "ident";
 }
