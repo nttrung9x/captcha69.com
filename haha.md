@@ -12,8 +12,9 @@ Method Code: GET / POST
 
 &sitekey: xem iframe hiển thị haha trong web mà bạn thấy
 
+# Bắt buộc phải có Proxy đi kèm
 ```
-Nếu sử dụng proxy (HTTP, HTTPS, SOCKS4, SOCKS5) của riêng bạn thì thêm: 
+Cách sử dụng proxy (HTTP, HTTPS, SOCKS4, SOCKS5) của riêng bạn thì thêm: 
 
 &proxy=username:password@123.123.123.123:3128&proxytype=HTTP
 ```
