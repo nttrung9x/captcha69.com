@@ -3,7 +3,7 @@
 ## Ví Dụ
 
 ### Ví Dụ Cho Câu Hỏi: penguins
-![penguins](/img/penguins.jpg)
+![penguins](https://raw.githubusercontent.com/nttrung9x/captcha69.com/main/fun-img/img/penguins.jpg)
 
 - `&imginstructions=penguins`
 - Kết quả: `OK|2`
@@ -11,7 +11,7 @@
 ---
 
 ### Ví Dụ Cho Câu Hỏi: shadow_puppets
-![shadow_puppets](/img/shadow_puppets.jpg)
+![shadow_puppets](https://raw.githubusercontent.com/nttrung9x/captcha69.com/main/fun-img/img/shadow_puppets.jpg)
 
 - `&imginstructions=shadow_puppets`
 - Kết quả: `OK|3`
@@ -27,18 +27,6 @@ Xem chi tiết tại: [fun Image v2](docs-fun-image-v2.md)
 ## Danh Sách Câu Hỏi (imginstructions)
 
 Xem chi tiết tại: [fun Answer](docs-fun-answer.md)
-
----
-
-## Extension Chrome
-
-Download: [Tải File](https://captcha69.com/client/extension-fun.php)
-
-Extension Firefox: Đang phát triển
-
-### Video Hướng Dẫn
-
-[![YouTube Tutorial](https://www.youtube.com/embed/MmdEL8k1tBc)](https://www.youtube.com/embed/MmdEL8k1tBc)
 
 ---
 
@@ -89,7 +77,5 @@ Số `3` chính là vị trí ảnh cần click trong Grid image
 - Nhớ xóa phần: `data:image/jpeg;base64,`
 
 ## Postman Demo
+![Postman Demo](https://raw.githubusercontent.com/nttrung9x/captcha69.com/main/fun-img/img/postman-fun.png)
 
-Download: [https://captcha69.com/postman/postman-fun-captcha69.zip](https://captcha69.com/postman/postman-fun-captcha69.zip)
-
-![Postman Demo](/img/postman-fun.png)
