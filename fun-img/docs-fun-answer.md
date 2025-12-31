@@ -2,17 +2,18 @@
 
 ## Danh Sách Câu Hỏi (imginstructions)
 
-Xem list hình ảnh tại: [Facebook Group](https://www.facebook.com/groups/889367338226771/permalink/1583844395445725/)
-
 ## Định Dạng
 
-| Câu Hỏi Trong fun | Text Request Lên API |
+| Câu Hỏi Trong fun có chứa các cụm từ | Text Request Lên API |
 |--------------------------|----------------------|
 | square_icon_pair_similar | ident |
 | square_icon_similar | ident |
+| square_icon_pair | ident |
 | numericalmatch | mask_match |
 | 3d_rollball_animals_alt | finger_direction |
+| 3d_rollball_animals | finger_direction |
 | galaxy | spiral_galaxy |
+| galaxies | spiral_galaxy |
 | dice_pair | same_dice_pair |
 | dice_7_revised | dicesum7 |
 | dice_8_revised | dicesum8 |
@@ -23,22 +24,44 @@ Xem list hình ảnh tại: [Facebook Group](https://www.facebook.com/groups/889
 | dice_slow_8_revised | dicesum8 |
 | dice_slow_14_revised | dicesum14 |
 | dice_slow_4_revised | dicesum4 |
+| dice_5_revised | dicesum5 |
+| dice_6_revised | dicesum5 |
+| dice_9_revised | dicesum9 |
+| dice_10_revised | dicesum10 |
+| dice_slow_5_revised | dicesum5 |
+| dice_slow_9_revised | dicesum9 |
+| dice_slow_10_revised | dicesum10 |
 | Pick one square that shows two identical objects | ident |
 | Pick the animal looking at the shape that matches the shape it's standing on | animal_look_standing |
 | Pick the image that is the correct way up | rotated |
+| Pick the Shadow with a different objet silhouette | shadow_puppets |
 | Pick the shadow with a different object silhouette | shadow_puppets |
-| Pick the penguin | penguins |
+| shadow-puppets | shadow_puppets |
+| Pick the penguin | penguins-icon |
+| Pick the penguins | penguins-icon |
+| penguins | penguins-icon |
+| penguin | penguins-icon |
 | Pick the card pair with matching numbers and symbols | card |
+| maze | mouse_maze |
 | Pick the mouse that can't reach the cheese | mouse_maze |
+| Pick the mouse that can 't reach the cheese | mouse_maze |
+| Pick the mouse that can reach exactly 3 cheese in the maze | mouse_maze |
 | Pick the dice pair whose top sides add up to 4 | dicesum4 |
 | Pick the dice pair whose top sides add up to 6 | dicesum6 |
 | Pick the dice pair whose top sides add up to 7 | dicesum7 |
 | Pick the dice pair whose top sides add up to 8 | dicesum8 |
+| Pick the dice pair whose top sides add up to 10 | dicesum10 |
 | Pick the dice pair whose top sides add up to 14 | dicesum14 |
+| dice_revised | dicesum7 |
+| dice_5_revised | dicesum5 |
+| dice_8_revised | dicesum8 |
+| dice_slow_14_revised | dicesum14 |
+| dice14 | dicesum14 |
 | Pick the dice pair with the same icon facing up | same_dice_pair |
 | Pick the matching cards | card |
 | Pick the spiral galaxy | spiral_galaxy |
 | Pick the wrong shadow | wrong_shadow |
+| shadows | wrong_shadow |
 | Pick the butterfly | butterfly |
 | Pick the parrot | parrot |
 | Pick the dinosaur | dinosaur |
@@ -59,8 +82,10 @@ Xem list hình ảnh tại: [Facebook Group](https://www.facebook.com/groups/889
 | Pick the bear | bear |
 | Pick the crab | crab |
 | Pick the cat | cat |
+| Pick the pig | pig |
 | Pick the pineapple | pineapple |
 | Pick the ant | ant |
+| Pick the parrot | parrot |
 | Pick the owl | owl |
 | Pick the turtle | turtle |
 | Pick the donut | donut |
@@ -76,6 +101,7 @@ Xem list hình ảnh tại: [Facebook Group](https://www.facebook.com/groups/889
 | Pick the dog | dog |
 | Pick the ice cream | ice_cream |
 | Pick the starfish | starfish |
+| Pick the dinosaur | dinosaur |
 | Pick the elephant | elephant |
 | Pick the shark | shark |
 | Pick the lion | lion |
@@ -90,10 +116,13 @@ Xem list hình ảnh tại: [Facebook Group](https://www.facebook.com/groups/889
 | Use the arrows to change the number of objects until it matches the left image | mask_match |
 | Use the arrows to rotate the animal to face in the direction of the hand | finger_direction |
 | Pick the mouse that can reach all the cheese in the maze | mouse_multicheese_maze |
+| maze2 | mouse_multicheese_maze |
 | Pick the shadow that matches the icons at the top of the image | shadow_icons_top |
+| shadow-icons-top | shadow_icons_top |
 | Select the animal with the wrong head | frankenhead |
-| Pick the image of 2 checkered shapes | two_checkered_shapes |
 | Pick the image where all animals are walking in the same direction as the arrow | animal_walk_arrow |
+| flockCompass | animal_walk_arrow |
+| Pick the image of 2 checkered shapes | two_checkered_shapes |
 | Pick the image of the brick cone and the checkered cube | mat_brickcone_checkercube |
 | Pick the image of the brick cone and the checkered sphere | mat_brickcone_checkersphere |
 | Pick the image of the brick cone and the striped cone | mat_brickcone_stripecone |
@@ -118,7 +147,32 @@ Xem list hình ảnh tại: [Facebook Group](https://www.facebook.com/groups/889
 | Pick the image where the darts add up to 8 | darts8 |
 | Pick the image where the darts add up to 10 | darts10 |
 | Pick the image where the darts add up to 12 | darts12 |
-| mat_stripeshape_checkershape | mat_stripeshape_checkershape |
+| Pick the image of the striped shape and the checkered shape | mat_stripeshape_checkershape |
+| Pick the image of 2 striped shapes | mat_stripeshape_stripeshape |
+| two_stripeshapes | mat_stripeshape_stripeshape |
+| materialshapes-BrickConeCheckerCube | mat_brickcone_checkercube |
+| materialshapes-BrickConeCheckerSphere | mat_brickcone_checkersphere |
+| materialshapes-BrickConeStripeCone | mat_brickcone_stripecone |
+| materialshapes-BrickCubeStripeHeart | mat_brickcube_stripeheart |
+| materialshapes-BrickCubeStripeSphere | mat_brickcube_stripesphere |
+| materialshapes-BrickHeartStripeHeart | mat_brickheart_stripeheart |
+| materialshapes-BrickSphereCheckerHeart | mat_bricksphere_checkerheart |
+| materialshapes-CheckerConeCheckerSphere | mat_checkercone_checkersphere |
+| materialshapes-FuzzConeBrickSphere | mat_fuzzcone_bricksphere |
+| materialshapes-FuzzCubeCheckerCube | mat_fuzzcube_checkercube |
+| materialshapes-FuzzCubeStripeCube | mat_fuzzcube_stripecube |
+| materialshapes-FuzzHeartBrickHeart | mat_fuzzheart_brickheart |
+| materialshapes-FuzzHeartStripeHeart | mat_fuzzheart_stripeheart |
+| materialshapes-FuzzSphereStripeCone | mat_fuzzsphere_stripecone |
+| materialshapes-FuzzSphereStripeCube | mat_fuzzsphere_stripecube |
+| materialshapes-StripeConeCheckerCube | mat_stripecone_checkercube |
+| materialshapes-StripeCubeCheckerCube | mat_stripecube_checkercube |
+| materialshapes-StripeCubeCheckerHeart | mat_stripecube_checkerheart |
+| materialshapes-StripeCubeCheckerSphere | mat_stripecube_checkersphere |
+| materialshapes-StripeHeartCheckerCube | mat_stripeheart_checkercube |
+| materialshapes-StripeShapeCheckerShape | mat_stripeshape_checkershape |
+| materialshapes-StripeShapeStripeShape | mat_stripeshape_stripeshape |
+| materialshapes-CheckerShapeCheckerShape | mat_checkershape_checkershape |
 | Pick the image where the darts add up to 9 | darts9 |
 | Pick the image where the darts add up to 14 | darts14 |
 | Pick the image where the darts add up to 17 | darts17 |
@@ -164,17 +218,20 @@ Xem list hình ảnh tại: [Facebook Group](https://www.facebook.com/groups/889
 | Pick the dice pair whose top sides add up to 5 | dicesum5 |
 | Pick the dice pair whose top sides add up to 9 | dicesum9 |
 | Use the arrows to move the person to the spot indicated by the cross | hopscotch |
+| hopscotch_v2 | hopscotch |
+| hopscotchv2 | hopscotch |
 | Using the arrows, connect the same two icons with the dotted line as shown on the left | icon_connect |
 | hopscotch_highsec | hopscotch_icon |
 | Click the arrows to sum the dice and match the number on the left | dicematch |
 | Use the arrows to move the person to the icon indicated by the coloured circle | hopscotch_icon |
 | Use the arrows to move the person to the icon indicated by the colored circle | hopscotch_icon |
 | Use the arrows to move the person to the spot indicated by the cross | hopscotch |
+| Use the arrows to move the person until they're standing on the same icon in the left image | hopscotch |
 | Using the arrows, move the person to the indicated seat | seat_coordinates |
 | coordinatesmatch | seat_coordinates |
-| match_reflection | match_reflection |
+| Pick the image with the matching reflection | match_reflection |
+| reflection | match_reflection |
 | counting | counting |
-| stairs_walking | stairs_walking |
 | Pick the umbrella | umbrella |
 | Pick the stapler | stapler |
 | Pick the snowman | snowman |
@@ -186,8 +243,11 @@ Xem list hình ảnh tại: [Facebook Group](https://www.facebook.com/groups/889
 | Pick the burger | burger |
 | Pick the cactus | cactus |
 | Pick one square that shows three of the same object | three_objects |
-| Select the image where the total fingers add up to 3 | fingers_sum3 |
+| square_icon_three | three_objects |
 | Select the image where the total fingers add up to 4 | fingers_sum4 |
+| Select the image where the total fingers add up to 3 | fingers_sum3 |
+| hand_number_puzzle | fingers_sum4 |
+| hand_number_puzzle_2 | fingers_sum3 |
 | Pick the shadow that matches the icons at the top of the image | shadow_icons_top |
 | Use the arrows to move the train into the position indicated in the left image | train_stop |
 | Use the arrows to move the train to the coordinates indicated in the left image | train_coordinates |
@@ -196,3 +256,133 @@ Xem list hình ảnh tại: [Facebook Group](https://www.facebook.com/groups/889
 | knotsCrossesCircle | knots_crosses_circle |
 | knotsCrossesKnot | knots_crosses_knot |
 | Pick the cube with icons split in half | mismatched_cube |
+| mismatched-cube | mismatched_cube |
+| Pick the image where the number matches the amount of animals | counting |
+| 3d_rollball_animals_multi | fingericon_animaldirection |
+| Use the arrows to rotate the animal with the same icon to face where the hand is pointing | fingericon_animaldirection |
+| Pick the image with only one rope | ropes |
+| Use the buttons to place the indicated car, in the correct position in the race | car_pos |
+| Use the arrows to rotate the object to face in the direction of the hand | 3d_rollball_objects |
+| 3d_rollball_objects_multi | 3d_rollball_objects |
+| Use the arrows to turn the animal's head in the direction of the hand | finger_direction |
+| Usa le frecce per ruotare l'animale in modo che sia rivolto nella direzione indicata dalla mano | finger_direction |
+| Pick the distorted object | distorted |
+| warpedobjects | distorted |
+| Pick the image of the person walking down the stairs | stairs_down |
+| Pick the image of the person walking up the stairs | stairs_up |
+| Pick the Image of the Person Walking Up The Stirs | stairs_up |
+| stairs_walking | stairs_up |
+| stairs_walking_2 | stairs_down |
+| Pick the object that is not distorted | not_distorted |
+| unbentobjects | not_distorted |
+| Pick the puzzle with the wrong pieces | wrong_puzzle |
+| Pick the shadow that matches the icons | shadow_icons |
+| shadow-icons | shadow_icons |
+| Match the number of rocks with the number on the left | rockstack |
+| Using the arrows, pick the group of rocks that has the amount indicated on the left | rockstack |
+| rockgroup | rockstack |
+| Use the arrows to move the icon into the indicated orbit | orbit_match_game |
+| Pick the image of the penguin | penguins-icon |
+| Pick the image of the penguins | penguins-icon |
+| Pick the image of the tiger | phototiger |
+| Pick the image of the airplane | photoairplane |
+| Pick the image of the windmill | photowindmill |
+| numerical_match answer3 png | mask_match |
+| numerical_match | mask_match |
+| rat_maze | rat_match |
+| Find the image where the rat can reach the exact amount of cheese as the image on the left | rat_match |
+| Use the arrows to find the room that matches the left image | topdownscene |
+| topdowngame | topdownscene |
+| Pick the brick cone and the checkered cube | mat_brickcone_checkercube |
+| Pick the brick cone and the checkered sphere | mat_brickcone_checkersphere |
+| Pick the brick cone and the striped cone | mat_brickcone_stripecone |
+| Pick the brick cube and the striped heart | mat_brickcube_stripeheart |
+| Pick the brick cube and the striped sphere | mat_brickcube_stripesphere |
+| Pick the brick heart and the striped heart | mat_brickheart_stripeheart |
+| Pick the brick sphere and the checkered heart | mat_bricksphere_checkerheart |
+| Pick the checkered cone and the checkered sphere | mat_checkercone_checkersphere |
+| Pick the fuzzy cone and the brick sphere | mat_fuzzcone_bricksphere |
+| Pick the fuzzy cube and the checkered cube | mat_fuzzcube_checkercube |
+| Pick the fuzzy cube and the striped cube | mat_fuzzcube_stripecube |
+| Pick the fuzzy heart and the brick heart | mat_fuzzheart_brickheart |
+| Pick the fuzzy heart and the striped heart | mat_fuzzheart_stripeheart |
+| Pick the fuzzy sphere and the striped cone | mat_fuzzsphere_stripecone |
+| Pick the fuzzy sphere and the striped cube | mat_fuzzsphere_stripecube |
+| Pick the striped cone and the checkered cube | mat_stripecone_checkercube |
+| Pick the striped cube and the checkered cube | mat_stripecube_checkercube |
+| Pick the striped cube and the checkered heart | mat_stripecube_checkerheart |
+| Pick the striped cube and the checkered sphere | mat_stripecube_checkersphere |
+| Pick the striped heart and the checkered cube | mat_stripeheart_checkercube |
+| Pick the person walking down the stairs | stairs_down |
+| Pick the person walking up the stairs | stairs_up |
+| Use the arrows to pick the image where all the darts add up to the number in the left image | darts_matchkey |
+| Use the arrows to find the distance between the two cars that matches the left image | cardistance |
+| Use the arrows to find the image where the number on each ring adds up to the number on the left | ringtoss |
+| mismatched-jigsaw | wrong_puzzle |
+| BrokenJigsawbrokenjigsaw_swap | brokenjigsaw |
+| Use the arrows to find the jigsaw puzzle that is missing the puzzle piece shown on the left | brokenjigsaw |
+| brokenjigsaw_swap | brokenjigsaw |
+| BrokenJigsaw | brokenjigsaw |
+| Use the arrows to pick the image where the object directly below the arrow matches the left image | conveyor |
+| conveyor_clock | conveyor |
+| Using the arrows, find the image of the basket that has the same contents as what's shown on the left | veggiemadness |
+| veggiemadness_alt | veggiemadness |
+| Match the icons on the left with the icons on the top faces of the dice | diceico |
+| Find the image that has the prize on the left held by the claw in the machine on the right | claw_machine |
+| lumber-length-game | lumber_length_game |
+| lumber_length | lumber_length_game |
+| Make sure the length of the object matches the length shown | lumber_length_game |
+| Using the arrows, find the image where one of the towers of rocks contains the exact amount shown on the left | rocktoweralt2 |
+| Pick the image of the horse | photohorse |
+| Pick the image of the hot air balloon | photohotairballoon |
+| ice_cream | photoicecream |
+| Pick the image of the hot icecream | photoicecream |
+| Pick the image of the lighthouse | photolighthouse |
+| Pick the image of the palm tree | photopalmtree |
+| Pick the image of the penguin | photopenguin |
+| Pick the image of the pizza | photopizza |
+| Pick the image of the sheep | photosheep |
+| Pick the image of the tent | phototent |
+| Pick the image of the chair | photochair |
+| Pick the image of the door | photodoor |
+| Pick the image of the elephant | photoelephant |
+| Pick the image of the sailboat | photosailboat |
+| Pick the image of the cactus | photocactus |
+| photoChair | photochair |
+| photoDoor | photodoor |
+| photoSheep | photosheep |
+| photoSwimmingpool | photoswimmingpool |
+| photoElephant | photoelephant |
+| photoСactus | photocactus |
+| Use the Arrows to pick the image where the icons are in the same sequence as that in the leftmost image | icon_constellation |
+| Use the Arrows to choose the image where the winner has the icon shown in the image on the left | iconrace |
+| iconrace_alt | iconrace |
+| Use the arrows to match the number of fallen pins to the number shown on the left | bowling |
+| Use the arrows to pick the image where the character is pointing at the shortest road, as shown in the leftmost image | pathfinder |
+| pathfinder_new | pathfinder |
+| Use the arrows to select the image where all the wires connect to matching icons | wireconnect |
+| Using the arrows, match the animal in the left and right image | simpleicons |
+| Use the arrows to match the icon on the left to the cup with the most liquid | watericoncup |
+| waterIconCup | watericoncup |
+| Using the arrows, find the image where the red striped pins fully overlap the boat on the left | matchship |
+| Using the arrows, find the image where the red stripped pins fully overlap the boat on the left | matchship |
+| Matchship | matchship |
+| Use the Arrows to choose the image where the balloon being hit has the same icon shown on the left | balloonicons |
+| BalloonIcons | balloonicons |
+| Use the arrows to find the shape with the same number of sides as the number shown on the left | 2dshapes |
+| 2dShapes | 2dshapes |
+| 3DRollball_v2_var1 | 3d_rollball_objects |
+| Use the arrows to rotate the asset to face in the same direction as the asset in the left image | 3d_rollball_objects |
+| MatchDiceIconCount | matchdiceiconcount |
+| Use the arrows to find the image where the number of symbols on the top sides of the dice matches the left image exactly | matchdiceiconcount |
+| Use the Arrows to match the icons inside the bubbles with the ones shown on the left | icongrouping |
+| conveyor_belt_V2 | conveyor |
+| conveyor_belt_v2 | conveyor |
+| Use the arrows to pick the image where the object directly below the claw matches the left image | conveyor |
+| Using the arrows, find the group of icons that the icon on the left would best fit in | icon_pattern |
+| Icon_Pattern | icon_pattern |
+| Use the arrows to find the image where two segments combine to make the icon in the left image | icon_segments |
+| Use the arrows to help the character to throw the ring on the desired image | hoople |
+| Use the Arrows to match the shadow of the icon shown on the left | extendedshadows |
+| Pick the constellation which most closely represents the left image | constellation |
+
