@@ -44,11 +44,11 @@ Xem chi tiết tại: [fun Answer](docs-fun-answer.md)
 
 Ví dụ:
 ```html
-<img aria-label="Image 1 of 12." class="sc-7csxyx-1 blHsFq" style="background-image: url(&quot;blob:https://client-api.arkoselabs.com/32dc3326-13bb-48a0-858d-f312bafd2329&quot;);">
+<img aria-label="Image 1 of 12." class="sc-7csxyx-1 blHsFq" style="background-image: url(&quot;blob:https://client-api.?????????.com/32dc3326-13bb-48a0-858d-f312bafd2329&quot;);">
 ```
 
 5. Copy nguyên URL đó, bao gồm cả "blob:"
-   - Ví dụ: `blob:https://client-api.arkoselabs.com/32dc3326-13bb-48a0-858d-f312bafd2329`
+   - Ví dụ: `blob:https://client-api.?????????.com/32dc3326-13bb-48a0-858d-f312bafd2329`
 6. Mở URL đó trong tab mới của chrome, nếu thấy ảnh dạng cells thì đã GET đúng
 7. Chuyển nó về Base64
 
@@ -68,7 +68,7 @@ const getBase64FromUrl = async (url) => {
   });
 }
 
-var Base64Code = await getBase64FromUrl("blob:https://client-api.arkoselabs.com/32dc3326-13bb-48a0-858d-f312bafd2329").then(function(base64data)
+var Base64Code = await getBase64FromUrl("blob:https://client-api.?????????.com/32dc3326-13bb-48a0-858d-f312bafd2329").then(function(base64data)
 {
   return base64data.split(";base64,")[1];
 });
@@ -82,6 +82,7 @@ var Base64Code = await getBase64FromUrl("blob:https://client-api.arkoselabs.com/
 - Danh sách câu hỏi: [fun Answer](docs-fun-answer.md)
 
 ![Postman Demo](https://raw.githubusercontent.com/nttrung9x/captcha69.com/main/fun-img/img/postman-fun.png)
+
 
 
 
