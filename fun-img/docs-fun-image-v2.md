@@ -76,12 +76,28 @@ var Base64Code = await getBase64FromUrl("blob:https://client-api.?????????.com/3
 
 ---
 
+## Demo Code JS
+```
+fetch("https://captcha69.com/in.php", {
+  "body": "key=point_xxx&imginstructions=mask_match&method=base64&body=xxx",
+  "method": "POST"
+});
+
+fetch("https://captcha69.com/res.php", {
+  "body": "key=xxx&action=get&id=yyy",
+  "method": "POST"
+});
+```
+
+---
+
 ## Tham khảo
 
 - Cách sử dụng tương tự với [fun Image v1](docs-fun-image.md)
 - Danh sách câu hỏi: [fun Answer](docs-fun-answer.md)
 
 ![Postman Demo](https://raw.githubusercontent.com/nttrung9x/captcha69.com/main/fun-img/img/postman-fun.png)
+
 
 
 
