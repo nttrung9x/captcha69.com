@@ -3,13 +3,13 @@
 ## Hình ảnh minh họa
 
 ### Loại mask_match
-![mask_match](img/v2/fun_v2.PNG)
+![mask_match](https://raw.githubusercontent.com/nttrung9x/captcha69.com/main/fun-img/img/v2/fun_v2.PNG)
 
 ### Loại finger_direction
-![finger_direction](/img/v2/fun_v2.2.PNG)
+![finger_direction](https://raw.githubusercontent.com/nttrung9x/captcha69.com/main/fun-img/img/v2/fun_v2.2.PNG)
 
 ### Loại icon_connect
-![icon_connect](/img/v2/fun_v2.3.PNG)
+![icon_connect](https://raw.githubusercontent.com/nttrung9x/captcha69.com/main/fun-img/img/v2/fun_v2.3.PNG)
 
 ---
 
@@ -83,4 +83,5 @@ var Base64Code = await getBase64FromUrl("blob:https://client-api.arkoselabs.com/
 - Json Postman demo: [Download](https://captcha69.com/postman/postman-fun-captcha69.zip)
 
 ![Postman Demo](/img/postman-fun.png)
+
 
