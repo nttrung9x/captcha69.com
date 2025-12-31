@@ -2,6 +2,8 @@
 
 ## Danh Sách Câu Hỏi (imginstructions)
 
+File List: [imginstructions.txt](imginstructions.txt)
+
 ## Định Dạng
 
 | Câu Hỏi Trong fun có chứa các cụm từ | Text Request Lên API |
@@ -385,4 +387,5 @@
 | Use the arrows to help the character to throw the ring on the desired image | hoople |
 | Use the Arrows to match the shadow of the icon shown on the left | extendedshadows |
 | Pick the constellation which most closely represents the left image | constellation |
+
 
