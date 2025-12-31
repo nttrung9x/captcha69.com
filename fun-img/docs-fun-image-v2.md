@@ -6,7 +6,7 @@
 ![mask_match](https://raw.githubusercontent.com/nttrung9x/captcha69.com/main/fun-img/img/v2/fun_v2.PNG)
 
 ### Loại finger_direction
-![finger_direction](https://raw.githubusercontent.com/nttrung9x/captcha69.com/main/fun-img/img/v2/fun_v2.2.PNG)
+![finger_direction](https://raw.githubusercontent.com/nttrung9x/captcha69.com/main/fun-img/img/v2/fun_v2.2.png)
 
 ### Loại icon_connect
 ![icon_connect](https://raw.githubusercontent.com/nttrung9x/captcha69.com/main/fun-img/img/v2/fun_v2.3.PNG)
@@ -22,16 +22,16 @@ Xem chi tiết tại: [fun Answer](docs-fun-answer.md)
 ## Các loại hình ảnh cần lấy
 
 ### 1. finger_direction
-![finger_direction](/img/v2/finger_direction.001.jpg)
+![finger_direction](https://raw.githubusercontent.com/nttrung9x/captcha69.com/main/fun-img/img/v2/finger_direction.001.jpg)
 
 ### 2. hopscotch
-![hopscotch](/img/v2/hopscotch.001.jpg)
+![hopscotch](https://raw.githubusercontent.com/nttrung9x/captcha69.com/main/fun-img/img/v2/hopscotch.001.jpg)
 
 ### 3. icon_connect
-![icon_connect](/img/v2/icon_connect.001.jpg)
+![icon_connect](https://raw.githubusercontent.com/nttrung9x/captcha69.com/main/fun-img/img/v2/icon_connect.001.jpg)
 
 ### 4. mask_match
-![mask_match](/img/v2/mask_match.001.jpg)
+![mask_match](https://raw.githubusercontent.com/nttrung9x/captcha69.com/main/fun-img/img/v2/mask_match.001.jpg)
 
 ---
 
@@ -80,8 +80,8 @@ var Base64Code = await getBase64FromUrl("blob:https://client-api.arkoselabs.com/
 
 - Cách sử dụng tương tự với [fun Image v1](docs-fun-image.md)
 - Danh sách câu hỏi: [fun Answer](docs-fun-answer.md)
-- Json Postman demo: [Download](https://captcha69.com/postman/postman-fun-captcha69.zip)
 
-![Postman Demo](/img/postman-fun.png)
+![Postman Demo](https://raw.githubusercontent.com/nttrung9x/captcha69.com/main/fun-img/img/postman-fun.png)
+
 
 
