@@ -3,7 +3,7 @@
 ## Hình ảnh minh họa
 
 ### Loại mask_match
-![mask_match](/img/v2/fun_v2.PNG)
+![mask_match](img/v2/fun_v2.PNG)
 
 ### Loại finger_direction
 ![finger_direction](/img/v2/fun_v2.2.PNG)
@@ -83,3 +83,4 @@ var Base64Code = await getBase64FromUrl("blob:https://client-api.arkoselabs.com/
 - Json Postman demo: [Download](https://captcha69.com/postman/postman-fun-captcha69.zip)
 
 ![Postman Demo](/img/postman-fun.png)
+
