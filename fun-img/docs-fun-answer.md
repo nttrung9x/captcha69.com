@@ -7,6 +7,7 @@ File List: [imginstructions.txt](imginstructions.txt)
 ## Định Dạng
 
 | Câu Hỏi Trong fun có chứa các cụm từ | Text Request Lên API |
+|--------------------------|----------------------|
 |	Pick one square that shows two identical objects	|	ident	|
 |	Pick the animal looking at the shape that matches the shape it's standing on	|	animal_look_standing	|
 |	Pick the image that is the correct way up	|	rotated	|
@@ -389,6 +390,7 @@ File List: [imginstructions.txt](imginstructions.txt)
 |	Pick the image of the elephant	|	photoelephant	|
 |	Pick the image of the sailboat	|	photosailboat	|
 |	Pick the image of the cactus	|	photocactus	|
+
 
 
 
